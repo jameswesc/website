@@ -8,17 +8,28 @@ export default function Home() {
                 </a>
             </div>
 
-            <section>
-                <div className="container mx-auto">
-                    <h2 className="font-brand text-5xl">
-                        ✋ Hi
-                        <br />
-                        I'm James Wesc
-                        <br />
-                        I'm a Sydney based Designer / Developer currently
-                        working at Smash Delta.
-                    </h2>
-                </div>
+            <section className="max-w-4xl mx-auto pt-20 px-4">
+                <h2 className="font-brand text-5xl">
+                    👋 Hi
+                    <br />
+                    <br />
+                    I'm James Wesc.
+                    <br />
+                    <br />
+                    A Designer / Developer for the modern web.
+                    <br />
+                    <br />
+                    Currently, Head of Interaction Design at{' '}
+                    <a
+                        className="underline"
+                        href="https://smashdelta.com"
+                        target="__blank"
+                    >
+                        Smash Delta
+                    </a>
+                    .
+                </h2>
+                <p className="pt-20 text-sm">🚧 Site under construction.</p>
             </section>
         </div>
     )
