@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Neue Machina Font */
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('/NeueMachina/NeueMachina-Regular.woff2') format('woff2'),
+        url('/NeueMachina/NeueMachina-Regular.woff') format('woff');
+}
+
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    @apply bg-pink-50;
+}
