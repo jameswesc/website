@@ -1,4 +1,4 @@
-export default function Home() {
+const Home = () => {
     return (
         <div>
             <div className="py-4 px-2 sm:px-4">
@@ -36,3 +36,9 @@ export default function Home() {
         </div>
     )
 }
+
+Home.title = 'James Wesc - Designer / Developer'
+Home.description =
+    'James Wesc is a Sydney based Designer / Developer for the modern web.'
+
+export default Home
