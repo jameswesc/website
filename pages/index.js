@@ -1,12 +1,9 @@
+import Header from '@/components/Header'
+
 const Home = () => {
     return (
         <div>
-            <div className="py-4 px-2 sm:px-4">
-                <a className="font-standard font-black text-xl" href="/">
-                    {' '}
-                    jwsc
-                </a>
-            </div>
+            <Header />
 
             <div className="px-4 sm:px-4 pt-8 md:pt-12 lg:pt-20">
                 <section className="max-w-4xl mx-auto">
