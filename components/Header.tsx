@@ -25,7 +25,7 @@ export default function Header() {
                 <DropdownMenu.Content className="py-2 grid gap-2">
                     <DropdownMenu.Item
                         as="a"
-                        href="https://www.notion.so/Digital-Garden-8abe1bf736c14f26a002c3678d33dd7c"
+                        href="https://www.notion.so/jameswesc/Digital-Garden-8abe1bf736c14f26a002c3678d33dd7c"
                         target="__blank"
                         className="p-2 bg-pink-100 hover:bg-pink-200 focus:bg-pink-200 outline-none font-brand underline"
                     >
