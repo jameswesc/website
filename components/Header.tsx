@@ -29,7 +29,7 @@ export default function Header() {
 
                     <DropdownMenu.Item
                         as="a"
-                        href="https://www.notion.so/jameswesc/Digital-Garden-8abe1bf736c14f26a002c3678d33dd7c"
+                        href="https://www.notion.so/jameswesc/71ef3121a0e6470f9e056352cc66959a?v=7d3f218b96f44e79bcb0a0c2e1204441"
                         target="__blank"
                         className="p-2 bg-pink-100 hover:bg-pink-200 focus:bg-pink-200 outline-none font-brand underline"
                     >
