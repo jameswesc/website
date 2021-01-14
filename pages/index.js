@@ -18,8 +18,16 @@ const Home = () => {
                         <br />
                         <br />
                         Currently, Head of Interaction Design at{' '}
+                        <style jsx>{`
+                            .smash-link {
+                                color: #3353ff;
+                            }
+                            .smash-link:hover {
+                                color: #f14f1d;
+                            }
+                        `}</style>
                         <a
-                            className="underline"
+                            className="underline smash-link"
                             href="https://smashdelta.com"
                             target="__blank"
                         >
